@@ -269,5 +269,72 @@ List active sessions.
 Force logout.
 
 ---
+Api format 
+
+{
+  "token": "<jwt-token>",
+  "refreshToken": "<refresh-token>",
+  "session": {
+    "sessionId": "string",
+    "startTime": "2025-11-18T12:00:00",
+    "expiryTime": "2025-11-18T14:00:00",
+    "status": "Active"
+  },
+  "user": {
+    "userId": "string",
+    "fullName": "string",
+    "username": "string",
+    "email": "string",
+    "department": "string",
+    "status": "Active",
+    "scope": "Global | Branch",
+    "tenantId": "string",
+    "branchId": "string",
+    "branch": {
+      "branchId": "string",
+      "branchName": "string",
+      "address": "string"
+    },
+    "groups": [
+      {
+        "groupId": "string",
+        "groupName": "string"
+      }
+    ],
+    "roles": [
+      {
+        "roleId": "string",
+        "roleName": "string",
+        "description": "string"
+      }
+    ],
+    "permissions": [
+      {
+        "permissionId": "string",
+        "module": "string",
+        "action": "Create | View | Edit | Delete | Approve",
+        "description": "string"
+      }
+    ]
+  },
+  "tenant": {
+    "tenantId": "string",
+    "tenantName": "string",
+    "license": {
+      "maxUsers": 20,
+      "maxSessions": 10,
+      "currentActiveUsers": 8,
+      "currentActiveSessions": 4
+    }
+  },
+  "uiConfig": {
+    "sidebar": [
+      { "module": "Sales", "allowed": true },
+      { "module": "Inventory", "allowed": false },
+      { "module": "Manufacturing", "allowed": true },
+      { "module": "HR", "allowed": true }
+    ]
+  }
+}
 
 # ✅ End of Document
