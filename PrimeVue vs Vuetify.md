@@ -107,8 +107,8 @@ Apps following Google's Material Design.
 
 | Library | Bundle Size | Reason |
 |--------|-------------|--------|
-| **Vuetify** | ⚠️ Heavier | Material Design utilities + forced global styling |
-| **PrimeVue** | ✅ Lighter | Modular imports + theme separation + design-agnostic |
+| **Vuetify** |  Heavier | Material Design utilities + forced global styling |
+| **PrimeVue** |  Lighter | Modular imports + theme separation + design-agnostic |
 
 ---
 
