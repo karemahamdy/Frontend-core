@@ -36,18 +36,6 @@ This document explains the differences between **PrimeVue (Prime UI)** and **Vue
 PrimeVue's biggest strength:
 > It has the **largest number of components** in the Vue ecosystem.
 
-Includes:
-- Highly advanced DataTable
-- TreeTable
-- Timeline
-- Charts
-- Calendar with ranges
-- FileUploader
-- Splitter
-- Steps
-- Many types of Menus  
-… and much more.
-
 ### **Perfect for SaaS with:**
 ERP — CRM — Dashboards — Admin Panels — Management Tools
 
@@ -95,15 +83,16 @@ Apps following Google's Material Design.
 
 ---
 
-##  5) Community & Ecosystem
+##  Key Differences Summary
 
-| Factor          | PrimeVue               | Vuetify                     |
-|-----------------|------------------------|------------------------------|
-| GitHub Stars    | Higher growth          | Large, long-standing         |
-| Community Size  | Very big and growing   | Huge and proven              |
-| Usage           | Mostly SaaS/enterprise | Material-design-based apps   |
+| Feature | Vuetify | PrimeVue |
+|--------|---------|-----------|
+| **Design Philosophy** | Strongly opinionated, built entirely on Google’s Material Design guidelines. | Design-agnostic with multiple official themes (Material, Bootstrap, FluentUI) and support for fully custom designs. |
+| **Customization** | Offers extensive utility classes, but heavily deviating from Material Design can be challenging. | Highly flexible with easy theme switching and deep customization using CSS frameworks like Tailwind CSS via **Pass-Through** configurations. |
+| **Component Count** | Around 80 well-crafted components. | Over 80 diverse and advanced components, including complex elements like DataTables, Tree structures, and Charts. |
+| **Enterprise Support** | Primarily community support (Discord, GitHub), plus sponsors. | Provides **official enterprise support** (PrimeVue PRO, LTS) from PrimeTek. |
+| **Look & Feel** | Consistent, polished Material Design aesthetic — ideal for dashboards and internal tools. | Wide aesthetic variety allowing unique branding and highly customized UI designs. |
 
 ---
-
 
 
