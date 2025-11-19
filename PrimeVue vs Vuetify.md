@@ -51,7 +51,7 @@ Apps following Google's Material Design.
 
 ---
 
-##  3) Customization
+##  3- Customization
 
 ### **PrimeVue**
 - Multiple built-in themes (Lara, Nora, Aura…)
@@ -71,7 +71,7 @@ Apps following Google's Material Design.
 
 ---
 
-##  4) Performance
+##  4- Performance
 
 ### **PrimeVue**
 - Slightly better performance overall.
@@ -80,6 +80,38 @@ Apps following Google's Material Design.
 ### **Vuetify**
 - Heavier due to Material Design rules.
 - Data-intensive components are slower than PrimeVue.
+
+---
+ Bundle Size Comparison
+
+### **Vuetify**
+- Generally **heavier**, because it bundles:
+  - Material Design tokens  
+  - Global utilities  
+  - Layout system  
+- Even with tree-shaking, Vuetify adds more KBs to the final production bundle.
+
+➡ **Impact:** Medium to large bundle footprint.
+
+---
+
+### **PrimeVue**
+- Typically **lighter**, thanks to:
+  - Modular component imports  
+  - Small theme files  
+  - No mandatory design system  
+  - Compatibility with Tailwind (reducing built-in CSS load)  
+
+➡ **Impact:** Small to medium bundle footprint.
+
+---
+
+### 5- Summary of Bundle Size Trends
+
+| Library | Bundle Size | Reason |
+|--------|-------------|--------|
+| **Vuetify** | ⚠️ Heavier | Material Design utilities + forced global styling |
+| **PrimeVue** | ✅ Lighter | Modular imports + theme separation + design-agnostic |
 
 ---
 
@@ -92,6 +124,7 @@ Apps following Google's Material Design.
 | **Component Count** | Around 80 well-crafted components. | Over 80 diverse and advanced components, including complex elements like DataTables, Tree structures, and Charts. |
 | **Enterprise Support** | Primarily community support (Discord, GitHub), plus sponsors. | Provides **official enterprise support** (PrimeVue PRO, LTS) from PrimeTek. |
 | **Look & Feel** | Consistent, polished Material Design aesthetic — ideal for dashboards and internal tools. | Wide aesthetic variety allowing unique branding and highly customized UI designs. |
+| **Bundle Size** | Heavier due to Material Design engine and global utilities. | Lighter, modular, and fully tree-shakable. |
 
 ---
 
