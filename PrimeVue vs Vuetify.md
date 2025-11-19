@@ -82,31 +82,9 @@ Apps following Google's Material Design.
 - Data-intensive components are slower than PrimeVue.
 
 ---
- Bundle Size Comparison
-
-### **Vuetify**
-- Generally **heavier**, because it bundles:
-  - Material Design tokens  
-  - Global utilities  
-  - Layout system  
-- Even with tree-shaking, Vuetify adds more KBs to the final production bundle.
-
-➡ **Impact:** Medium to large bundle footprint.
-
----
-
-### **PrimeVue**
-- Typically **lighter**, thanks to:
-  - Modular component imports  
-  - Small theme files  
-  - No mandatory design system  
-  - Compatibility with Tailwind (reducing built-in CSS load)  
-
-➡ **Impact:** Small to medium bundle footprint.
-
----
 
 ### 5- Summary of Bundle Size Trends:
+
 ### **Vuetify**
 - Generally **heavier**, because it bundles:
   - Material Design tokens  
